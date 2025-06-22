@@ -1,0 +1,32 @@
+.header {
+  background-color: #1e1e1e;
+  color: white;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: #aaa;
+  font-weight: 500;
+}
+
+.nav-links a.active {
+  color: #4caf50;
+  font-weight: bold;
+  border-bottom: 2px solid #4caf50;
+}
